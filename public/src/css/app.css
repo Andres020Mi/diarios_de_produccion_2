@@ -1,0 +1,13 @@
+
+
+html[data-theme="light"] .border-color {
+  border-color: rgb(167, 167, 167);
+}
+
+html[data-theme="light"] .text-gradient-primary {
+  background: linear-gradient(to right, #11d3ff, #8dffa4, #67d605);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
