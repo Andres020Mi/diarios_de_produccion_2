@@ -105,7 +105,8 @@ System: small footer height */
                 </p>
             </div>
             <nav class="p-3">
-                @include('Navegaciones.diariosDeProduccion')
+                <span></span>
+                @include('Navegaciones.DiariosDeProduccion.blade')
             </nav>
         </aside>
         <!-- Contenedor principal -->
